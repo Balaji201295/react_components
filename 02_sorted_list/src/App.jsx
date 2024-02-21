@@ -45,7 +45,7 @@ function App() {
                   key={index}
                   className="flex justify-between items-center gap-4 bg-blue-900 text-white  border border-gray-600 rounded-md p-2"
                 >
-                  <span>{item}</span>
+                  {index + 1}.<span>{item}</span>
                   <IoIosClose
                     fontSize={20}
                     className="cursor-pointer"
